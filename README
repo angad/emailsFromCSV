@@ -1,0 +1,7 @@
+Compile using
+$gcc csvemail.c -o csv -std=c99
+
+Make sure your google.csv file is present in the same directory.
+Run ./csv
+
+emails.dat will be generated containing all the emails from the CSV.
